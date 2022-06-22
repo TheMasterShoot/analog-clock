@@ -1,5 +1,12 @@
 'use strict'
 
+function theme() {
+
+    const body = document.querySelector('body');
+        
+    body.classList.toggle('light');
+}
+
 window.addEventListener( 'load', () => {
     
     function analogClock() {
@@ -25,6 +32,7 @@ window.addEventListener( 'load', () => {
 
     }
 
+    
     analogClock();
 
 });
